@@ -309,5 +309,3 @@ CHROMA_PATH = "data/chroma"
 
 MIT License — free to use for educational and portfolio purposes.
 ```
-
----
