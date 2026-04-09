@@ -1,0 +1,49 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# --- Virtual Environment ---
+venv/
+env/
+.venv/
+
+# --- Environment Variables ---
+.env
+# Keep .env.example for reference
+
+# --- pytest ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Data & Runtime Files ---
+data/
+# (Chromadb, assignments, skills — generated at runtime)
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Notebooks (if any) ---
+.ipynb_checkpoints/
+
+# --- Misc ---
+*.bak
